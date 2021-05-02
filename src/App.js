@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Portfolio from './Components/Portfolio/Portfolio';
 import Blogs from './Components/Blogs/Blogs';
+import NoMatch from './Components/NoMatch/NoMatch';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
           <Blogs></Blogs>
         </Route>
         <Route path="*">
-          
+          <NoMatch></NoMatch>
         </Route>
       </Switch>
     </Router>
