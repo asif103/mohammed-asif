@@ -5,6 +5,9 @@ import React from 'react';
 import './Footer.css'
 
 const Footer = () => {
+    const goToLink = (link) => {
+        window.location.replace(link)
+    }
     return (
         <div>
             <div className="footer d-flex flex-column align-items-center justify-content-center ">
@@ -13,7 +16,7 @@ const Footer = () => {
             <p><FontAwesomeIcon icon={faPhoneAlt}></FontAwesomeIcon> <a href="tel:+8801631048588">+8801631048588</a></p>
             <p><FontAwesomeIcon icon={faEnvelopeSquare}></FontAwesomeIcon> <a href="mailto:asif.cse473@gmail.com">asif.cse473@gmail.com</a></p>
             </div>
-            <p className="text-center"><a href="" className="facebook"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></a> <a href="" className="LinkedIn"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a> </p>
+                <p className="text-center"> <span className="facebook" onClick ={()=>goToLink('https://facebook.com/asif473')}><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></span> <span  className="LinkedIn" onClick ={()=>goToLink('https://facebook.com/asif473')}><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon> </span></p>
             </div>
             <p className="text-center">All rights reserved @ Mohammed Asif</p>
         </div>

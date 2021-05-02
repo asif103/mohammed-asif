@@ -14,9 +14,7 @@ const Portfolio = () => {
     return (
         <div>
             <NavBar></NavBar>
-            {
-                portfolios.map(portfolio => <Work portfolio={ portfolio}></Work>)
-            }
+            
             <Footer></Footer>
             
         </div>
