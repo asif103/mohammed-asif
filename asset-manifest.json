@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/asif103/mohammed-asif/static/css/main.cf126be9.chunk.css",
+    "main.js": "/asif103/mohammed-asif/static/js/main.a260c84c.chunk.js",
+    "main.js.map": "/asif103/mohammed-asif/static/js/main.a260c84c.chunk.js.map",
+    "runtime-main.js": "/asif103/mohammed-asif/static/js/runtime-main.3468bb0c.js",
+    "runtime-main.js.map": "/asif103/mohammed-asif/static/js/runtime-main.3468bb0c.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/asif103/mohammed-asif/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.e68ba4be.chunk.js": "/asif103/mohammed-asif/static/js/2.e68ba4be.chunk.js",
+    "static/js/2.e68ba4be.chunk.js.map": "/asif103/mohammed-asif/static/js/2.e68ba4be.chunk.js.map",
+    "static/js/3.59a0e10d.chunk.js": "/asif103/mohammed-asif/static/js/3.59a0e10d.chunk.js",
+    "static/js/3.59a0e10d.chunk.js.map": "/asif103/mohammed-asif/static/js/3.59a0e10d.chunk.js.map",
+    "index.html": "/asif103/mohammed-asif/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/asif103/mohammed-asif/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.cf126be9.chunk.css.map": "/asif103/mohammed-asif/static/css/main.cf126be9.chunk.css.map",
+    "static/js/2.e68ba4be.chunk.js.LICENSE.txt": "/asif103/mohammed-asif/static/js/2.e68ba4be.chunk.js.LICENSE.txt",
+    "static/media/Mohammed_Asif_CV.33928b62.pdf": "/asif103/mohammed-asif/static/media/Mohammed_Asif_CV.33928b62.pdf",
+    "static/media/me.fefdc619.png": "/asif103/mohammed-asif/static/media/me.fefdc619.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3468bb0c.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.e68ba4be.chunk.js",
+    "static/css/main.cf126be9.chunk.css",
+    "static/js/main.a260c84c.chunk.js"
+  ]
+}
