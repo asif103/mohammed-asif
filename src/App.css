@@ -34,6 +34,45 @@ html{
   pointer-events: none;
 }
 
+.facebook{
+  font-size: 2rem !important;
+  background-color: transparent !important;
+  color: #1877F2 !important;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.facebook:hover{
+  background-color: #ddd !important;
+  color: #000 !important;
+  cursor: pointer;
+}
+.LinkedIn{
+  font-size: 2rem !important;
+  background-color: transparent !important;
+  color: blue !important;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.LinkedIn:hover{
+  background-color: #ddd !important;
+  color: #000 !important;
+  cursor: pointer;
+}
+
+.github{
+  font-size: 2rem !important;
+  background-color: transparent !important;
+  color: #282828 !important;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.github:hover{
+  background-color: #ddd !important;
+  color: #000 !important;
+  cursor: pointer;
+}
+
 
 
 

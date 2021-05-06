@@ -9,11 +9,11 @@ const Blog = ({ blog}) => {
     }
     return (
         
-            <div className="col-md-4">
-                <div className="card 1">
+            <div className="col-md-4 ">
+                <div className="card blog-bg shadow">
                 <div className="card_title title-black">
                     <p className="p-5 text-center">{blog.title}</p>
-                    <p className="text-center"><button onClick ={()=>goToLink('https://facebook.com/asif473')} className="btn btn-outline-warning ">Read full content <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button>
+                    <p className="text-center"><button onClick ={()=>goToLink('https://facebook.com/asif473')} className="btn btn-outline-danger btn-lg ">Read full content <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button>
                     </p>
                 </div>
                 </div>

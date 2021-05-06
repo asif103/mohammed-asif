@@ -42,6 +42,9 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 .card {
   margin: 30px auto;
   border-radius: 40px;
-box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
   transition: 0.4s;
+}
+
+.blog-bg{
+  background-image: linear-gradient(30deg, #ddd, rgba(128, 128, 0, 0.5))
 }

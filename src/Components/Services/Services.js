@@ -16,32 +16,27 @@ const Services = () => {
                 <Row>
                     <div className="col-md-4 mb-5">
                         <div className="service-box p-5 bg-light shadow">
-                        <h1>Web Design</h1>
-                        
+                        <h3>Web Design</h3>
                         </div>
                     </div>
                     <div className="col-md-4 mb-5">
                         <div className="service-box p-5 bg-light shadow">
-                        <h1>Web Development</h1>
-                        
+                        <h3>Web Development</h3>
                         </div>
                     </div>
                     <div className="col-md-4 mb-5">
                         <div className="service-box p-5 bg-light shadow">
-                        <h1>Content Writing</h1>
-                        
+                        <h3>Content Writing</h3>
                         </div>
                     </div>
                     <div className="col-md-4 mb-5">
                         <div className="service-box p-5 bg-light shadow">
-                        <h1>Copy Writing</h1>
-                        
+                        <h3>Copy Writing</h3>
                         </div>
                     </div>
                     <div className="col-md-4 mb-5">
                         <div className="service-box p-5 bg-light shadow">
-                        <h1>Graphics Design</h1>
-                        
+                        <h3>Graphics Design</h3>
                         </div>
                     </div>
                 </Row>

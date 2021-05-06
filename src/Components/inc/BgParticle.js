@@ -66,7 +66,7 @@ const BgParticle = () => {
             number: {
               density: {
                 enable: true,
-                value_area: 2000,
+                value_area: 5000,
               },
               value: 80,
             },
