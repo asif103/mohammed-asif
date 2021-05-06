@@ -12,7 +12,7 @@ const Footer = () => {
         <div>
             <div className="footer d-flex flex-column align-items-center justify-content-center ">
             <div>
-            <h1 className="text-center">Mohammed Asif</h1>
+            <h1 className="text-center p-3">Mohammed Asif</h1>
             <p><FontAwesomeIcon icon={faPhoneAlt}></FontAwesomeIcon> <a href="tel:+8801631048588">+8801631048588</a></p>
             <p><FontAwesomeIcon icon={faEnvelopeSquare}></FontAwesomeIcon> <a href="mailto:asif.cse473@gmail.com">asif.cse473@gmail.com</a></p>
             </div>

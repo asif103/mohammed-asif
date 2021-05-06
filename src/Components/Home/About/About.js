@@ -1,8 +1,9 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import ProfileImage from '../../../images/me.png'
+import ProfileImage from '../../../images/me.png';
 
 const About = () => {
+   
     return (
         <Container className="about" id="about">
             <div className="head-section box">

@@ -1,4 +1,5 @@
 import React from 'react';
+import BackToTop from '../BackToTop/BackToTop';
 import Footer from '../Footer/Footer';
 import Services from '../Services/Services';
 import About from './About/About';
@@ -15,6 +16,7 @@ const Home = () => {
             <Skills></Skills>
             <Services></Services>
             <Footer></Footer>
+            <BackToTop></BackToTop>
             
         </div>
     );
