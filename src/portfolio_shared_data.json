@@ -1,0 +1,83 @@
+{
+    "basic_info": {
+      "name": "Mohammed Asif",
+      "titles": [ "MERN Stack Developer", "Front-End influenced", "Familiar with Laravel", "Familiar with SQL and NoSQL" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/asif103",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/asif473/",
+          "class": "fab fa-linkedin"
+        },
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/asif473",
+          "class": "fab fa-facebook"
+        }
+      ],
+      "image": "../profile.png"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "80"
+        },
+        {
+          "name": "Material UI",
+          "class": "devicon-materialui-plain",
+          "level": "90"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "ExpressJs",
+          "class": "devicon-express-original",
+          "level": "70"
+        },
+        {
+          "name": "Figma",
+          "class": "devicon-figma-plain",
+          "level": "75"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "85"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "65"
+        },
+        {
+          "name": "Laravel",
+          "class": "devicon-laravel-plain",
+          "level": "60"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
+          "level": "60"
+        }
+      ]
+    }
+  }

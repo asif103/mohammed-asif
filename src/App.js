@@ -1,36 +1,43 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './Components/Home/Home';
-import BgParticle from './Components/inc/BgParticle';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-import Portfolio from './Components/Portfolio/Portfolio';
-import Blogs from './Components/Blogs/Blogs';
-import NoMatch from './Components/NoMatch/NoMatch';
+import React, { Component } from "react";
+import $ from "jquery";
+import "./App.scss";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
-function App() {
-  return (
-    <Router>
-      <BgParticle></BgParticle>
-      <Switch>
-        <Route exact path="/">
-          <Home></Home>
-        </Route>
-        <Route exact path="/portfolio">
-          <Portfolio></Portfolio>
-        </Route>
-        <Route exact path="/blog">
-          <Blogs></Blogs>
-        </Route>
-        <Route path="*">
-          <NoMatch></NoMatch>
-        </Route>
-      </Switch>
-    </Router>
-  );
+class App extends Component {
+
+  constructor(props) {
+    super();
+    this.state = {
+      foo: "bar",
+      resumeData: {},
+      sharedData: {},
+    };
+  }
+
+
+
+
+
+
+
+  render() {
+    return (
+      <div>
+        <Header />
+        
+        <About />
+        {/* <Projects /> */}
+        <Skills />
+        <Experience />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
